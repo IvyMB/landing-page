@@ -1,0 +1,131 @@
+#menu {
+    background-color: #000000;
+}
+
+.green {
+    color: #7CC545 !important;
+}
+.active {
+    color: #cdcfcc !important;
+}
+.nav-link:hover{
+    color:#6be40f !important;
+}
+#icon-menu {
+    max-width: 80px;
+}
+#card-menu {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.icons {
+    max-width: 35px !important;
+    padding-left:0% !important;
+}
+
+#green-content {
+    color:#7CC545 !important;
+}
+
+    .vline {
+    border-left: 2px solid #000000;
+    height: 300px;
+    }
+
+    .vline-2 {
+    border-left: 2px solid #FFFFFF;
+    height: 100px;
+    }
+
+    .vline-3 {
+    border-left: 2px solid #FFFFFF;
+    height: 150px;
+    }
+
+#services  {
+    margin-left: 14px !important;
+}
+.footer{
+    background: #000000;
+}
+.font-w {
+    color: #FFFFFF;
+}
+
+.back-w {
+    background:#FFFFFF ;
+}
+
+.carousel-control-next {
+    left: 90%;
+}
+.carousel-control-prev {
+    left: -5% !important;
+}
+
+.accordion-button:focus {
+    background-color: #FFFFFF !important ;
+    border-color:  #FFFFFF !important ;
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+background-color: #FFFFFF !important;
+color: #000000 !important;
+background-color: #FFFFFF !important;
+box-shadow:#FFFFFF  !important;
+}
+.accordion-icon-active-color {
+    background-color: #FFFFFF !important;
+    color: #D9D9D9;
+}   
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(39, 39, 39, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(60, 61, 60, 0.6);
+  outline: 0 none;
+}
+
+
+.form-orc {
+    border-radius: 10px;
+    background: #a4cf83  !important;
+}
+
+li{
+    max-width: 410px;
+    padding-bottom: 18px;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 90%;
+    left: 2%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  @media screen and (max-width: 685px){
+    .vline, .vline-2, .vline-3{
+        display: none;
+    }
+    .icon-checkt {
+        display: none;
+    }
+  }
